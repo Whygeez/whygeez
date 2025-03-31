@@ -1,16 +1,17 @@
-## Hi there 👋
+pkg update
 
-<!--
-**Whygeez/whygeez** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+pkg install git
 
-Here are some ideas to get you started:
+pkg install python
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+pkg install python-pip
+
+git clone [https://github.com/Whygeez/whygeez/edit/main/README.md]
+
+cd whygeezproperty
+
+git pull
+
+pip install -r requirements.txt
+
+python main.py
